@@ -344,7 +344,7 @@
           <stringProp name="jms.priority"></stringProp>
           <stringProp name="jms.security_principle"></stringProp>
           <stringProp name="jms.security_credentials"></stringProp>
-          <stringProp name="jms.text_message"></stringProp>
+          <stringProp name="jms.text_message">Simple Text</stringProp>
           <stringProp name="jms.input_file"></stringProp>
           <stringProp name="jms.random_path"></stringProp>
           <stringProp name="jms.config_choice">jms_use_text</stringProp>
@@ -381,25 +381,7 @@
           <stringProp name="jms.priority"></stringProp>
           <stringProp name="jms.security_principle"></stringProp>
           <stringProp name="jms.security_credentials"></stringProp>
-          <stringProp name="jms.text_message">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
-&lt;ns0:message xmlns:xsi=&apos;http://www.w3.org/2001/XMLSchema-instance&apos; xmlns:ns0=&apos;urn:sc-tf:messaging&apos; xsi:schemaLocation=&apos;urn:sc-tf:messaging sctf.xsd&apos;&gt;
-    &lt;ns0:subscriber-data&gt;
-        &lt;ns0:msisdn&gt;${MSISDN}&lt;/ns0:msisdn&gt;
-    &lt;/ns0:subscriber-data&gt;
-    &lt;ns0:operation&gt;
-        &lt;ns0:name&gt;smart2Notification&lt;/ns0:name&gt;
-        &lt;ns0:parameters&gt;
-            &lt;ns0:parameter&gt;
-                &lt;ns0:name&gt;SOCname&lt;/ns0:name&gt;
-                &lt;ns0:value&gt;MTPPLT&lt;/ns0:value&gt;
-            &lt;/ns0:parameter&gt;
-            &lt;ns0:parameter&gt;
-                &lt;ns0:name&gt;statusCode&lt;/ns0:name&gt;
-                &lt;ns0:value&gt;{TOGLE}&lt;/ns0:value&gt;
-            &lt;/ns0:parameter&gt;
-        &lt;/ns0:parameters&gt;
-    &lt;/ns0:operation&gt;
-&lt;/ns0:message&gt;</stringProp>
+          <stringProp name="jms.text_message">Simple Text</stringProp>
           <stringProp name="jms.input_file"></stringProp>
           <stringProp name="jms.random_path"></stringProp>
           <stringProp name="jms.config_choice">jms_use_text</stringProp>
