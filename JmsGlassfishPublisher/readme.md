@@ -1,4 +1,4 @@
-###### Jmeter JMS - Glassfish(Openmq) 
+###### Jmeter publish some message to - Glassfish(Openmq)queue
 
 1. Glassfish/MQ lib's should be linked as $СLASSPATH variable or linked somehow. Do NOT  copy them to `${JMETER_HOME}/libs/ext`
 2. Local `./asadmin version` = Remote `./asadmin version`
