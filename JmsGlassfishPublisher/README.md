@@ -1,9 +1,17 @@
-###### Jmeter publish some message to - Glassfish(Openmq)queue
+# JMeter Publish to Glassfish (OpenMQ) Queue
 
-1. Glassfish/MQ lib's should be linked as $СLASSPATH variable or linked somehow. Do NOT  copy them to `${JMETER_HOME}/libs/ext`
-2. Local `./asadmin version` = Remote `./asadmin version`
-3. In case of exception "_javax.jms.Message.setJMSDeliveryTime_" - copy _jms.jar_, _imq.jar_ to `$JRE_HOME/lib/ext/`
-5. Fill in correct values in Test Plan table
-6. Run... 
+## Description
+This documentation provides instructions for publishing messages to a Glassfish (OpenMQ) queue using JMeter.
 
-TextMessage - "_Simple Text_" should be in remote `${Q_NAME}`
+## Prerequisites
+- Glassfish/MQ libraries should be linked to the $CLASSPATH variable or in some other way, but do NOT copy them to `${JMETER_HOME}/libs/ext`
+- The local `./asadmin version` should match the remote `./asadmin version`
+- In case of the exception "_javax.jms.Message.setJMSDeliveryTime_", copy _jms.jar_ and _imq.jar_ to `$JRE_HOME/lib/ext`
+- Fill in the correct values in the Test Plan table
+
+## Usage
+1. Fill in the correct values in the Test Plan table
+2. Run the test
+
+### Note
+- TextMessage "_Simple Text_" should be in the remote `${Q_NAME}`
